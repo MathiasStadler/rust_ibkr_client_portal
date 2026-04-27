@@ -47,6 +47,7 @@ touch project_path.md \
 cargo add ibkr_client_portal
 # for test
 cargo add --dev async_once
+https://github.com/ttzztztz/rabbit_trading/blob/master/packages/ibkr_client_portal/Cargo.toml
 ```
 <!-- KtF -->
 
