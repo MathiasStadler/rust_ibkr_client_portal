@@ -29,7 +29,8 @@ touch project_path.md \
 && rustup toolchain install stable \
 && rustup update  --force \
 && rustup show \
-&& rustup override set stable  \
+&& rustup override<!-- KtF -->
+```bash <!-- markdownlint-disable-line code-block-style --> set stable  \
 && cargo clippy \
 && cargo fmt --verbose \
 && cargo fix --workspace \
@@ -40,6 +41,15 @@ touch project_path.md \
 && cargo add tokio --features full
 ```
 <!-- KtF -->
+## Add create ibkr_client_portal
+<!-- KtF -->
+```bash <!-- markdownlint-disable-line code-block-style -->
+cargo add ibkr_client_portal
+# for test
+cargo add --dev async_once
+```
+<!-- KtF -->
+
 <!-- To comply with the format -->
 <!-- Link sign - Don't Found a better way :-( - You know a better method? - send me a email -->
 >[!NOTE]
